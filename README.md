@@ -89,10 +89,10 @@
     注意：不需要退出设备已登陆的账号    
     * 首先激活设备管理器；    
     * 然后在/data/system/目录下创建一个`device_owner.xml`文件:   
-    ```
-    <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-    <device-owner package="com.sscience.deviceowner" />
-    ```
+      ```
+      <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+      <device-owner package="com.sscience.deviceowner" />
+      ```
   * 最后重启即可。   
 * 停用App     
   ```
