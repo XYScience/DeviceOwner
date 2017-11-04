@@ -82,8 +82,7 @@
     ```     
     若出现如下类似错误：    
     ```
-    java.lang.IllegalStateException: Not allowed to set the device owner because 
-there are already some accounts on the device
+    java.lang.IllegalStateException: Not allowed to set the device owner because there are already some accounts on the device
     ```    
     则可尝试到设置-账号中退出所有账户，然后重新尝试ADB设置。    
   * 在已root设备上进行。（已验证）     
