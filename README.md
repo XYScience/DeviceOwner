@@ -107,6 +107,7 @@
     2，通过命令adb install -t examole.apk安装该app；    
     3，通过命令adb shell dpm set-device-owner com.example.sample/.MyDeviceAdminReceiver成为DeviceOwner；    
     4，通过命令adb shell dpm remove-active-admin com.example.sample/.MyDeviceAdminReceive退出DeviceOwner；    
+    
 >参考：    
->DeviceAdmin简单实践     
->Android极速开发之设备管理器(DevicePolicyManager)     
+>[DeviceAdmin简单实践](http://floatingmuseum.github.io/2016/07/device-admin-practice)     
+>[Android极速开发之设备管理器(DevicePolicyManager)](http://www.jianshu.com/p/8934d47aed3b)     
